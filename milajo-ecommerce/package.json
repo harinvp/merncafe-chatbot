@@ -6,7 +6,8 @@
   "scripts": {
     "start": "cd server && node index.js",
     "build-start": "cd.. && cd client && npm run build && cd .. && cd server && node index.js",
-    "install-build": "cd client && npm install && npm run build"
+    "install-build": "cd client && npm install && npm run build",
+    "build": "cd server && npm install",
   },
   "keywords": [],
   "author": "",
