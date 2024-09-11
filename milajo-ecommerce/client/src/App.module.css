@@ -1,0 +1,52 @@
+.menuLink {
+  color: inherit;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.activeLink {
+  background-color: #f9a825;
+  border-radius: 10%;
+  padding: 10px 10px 10px 10px;
+}
+
+.welcomeMsg {
+  display: flex;
+  flex-grow: 1;
+  font-size: 18px !important;
+  color: yellow;
+}
+
+.btn {
+  width: 100px;
+  margin-left: 40px !important;
+
+}
+
+.btnIcon {
+  color: #f9a825 !important;
+  padding-left: 2em;
+  cursor: pointer !important;
+  font-size: 30px !important;
+}
+
+.trolleyIconContainer {
+  position: fixed;
+  bottom: 92.5%;
+  left: 60%;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.trolleyIcon {
+  color: #fff;
+  font-size: 40px !important;
+}
+
+@media (min-height:945px) {
+  .trolleyIconContainer {
+
+    bottom: 94.5% !important;
+
+  }
+}

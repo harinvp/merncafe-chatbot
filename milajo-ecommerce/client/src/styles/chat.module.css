@@ -1,0 +1,231 @@
+.chatContainer {
+  width: 450px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  position: fixed;
+  top: 32%;
+  right: 4px;
+  z-index: 1000;
+}
+
+.chatHeader {
+  cursor: pointer;
+  background-color: #2596be;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.chatLogo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.chatBody {
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  background-color: #f1f1f1;
+}
+
+.chatMessage {
+  margin: 5px 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.bot {
+  justify-content: flex-start;
+}
+
+.user {
+  justify-content: flex-end;
+}
+
+.messageContent {
+  max-width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+.bot .messageContent {
+  background-color: #e1f3fb;
+  border-color: #b3e5fc;
+}
+
+.chatFooter {
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.chatInput {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.chatSend {
+  background-color: #2596be;
+  color: white;
+  border: none;
+  padding: 8px 8px;
+  margin-left: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.chatSend:hover {
+  background-color: #f9a825;
+}
+
+.bodyBox {
+  text-align: left !important;
+  padding: 10px !important;
+  border-radius: 20px !important;
+  background-color: #e0e0e0 !important;
+  color: black !important;
+  margin-bottom: 10px !important;
+  border: 1px solid #e0e0e0 !important;
+}
+
+/* For messages from Jo */
+.messageJo {
+  display: inline-block !important;
+  padding: 10px !important;
+  border-radius: 20px !important;
+  background-color: #e0e0e0 !important;
+  color: black !important;
+  border: 1px solid #fff !important;
+}
+
+/* For other messages */
+.messageOther {
+  display: inline-block !important;
+  padding: 10px !important;
+  border-radius: 20px !important;
+  background-color: #fff !important;
+  color: #259 !important;
+  border: 1px solid #2596be !important;
+}
+
+/* For the second set of styles */
+.btn {
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  background-color: #2596be !important;
+  color: white !important;
+  font-size: 30px !important;
+}
+
+.typingIndicatorContainer {
+  display: flex;
+  align-items: flex-end;
+  flex: none;
+}
+
+.typingIndicatorBubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 30px;
+  margin: 0px 8px;
+  background-color: #454545;
+  border-radius: 12px;
+}
+
+.typingIndicatorBubbleDot {
+
+  width: 4px;
+  height: 4px;
+  margin-right: 4px !important;
+  animation-name: bounce;
+  animation-duration: 1.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  /* margin: 0px 8px; */
+  background-color: #4cceac;
+  border-radius: 50%;
+}
+.chatTyping
+{
+  background-color: #f1f1f1;
+  padding-bottom:5px;
+}
+.typingIndicatorBubbleDot:first-of-type {
+  margin: 0px 4px;
+}
+
+.typingIndicatorBubbleDot:nth-of-type(2) {
+  animation-delay: 0.15s;
+}
+
+.typingIndicatorBubbleDot:nth-of-type(3) {
+  animation-delay: 0.15s;
+}
+
+@keyframes bounce {
+
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+  }
+
+  30% {
+    transform: translateY(-4px);
+  }
+}
+
+.typingIndicator img {
+  width: 40px;
+  height: 40px;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media (min-height:945px) {
+  .chatContainer {
+    top: 27% !important;
+    width: 500px !important;
+  }
+
+  .chatBody {
+    height: 500px !important;
+  }
+}
+
+/* @media (min-height: 945px) and (max-height: 1299px)
+  {
+    .chatContainer{
+        top:50% !important;
+        width:500px !important;
+    }
+    .chatBody
+    {
+        height:500px !important;
+    }
+  } */

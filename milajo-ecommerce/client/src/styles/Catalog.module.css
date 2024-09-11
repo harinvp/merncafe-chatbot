@@ -1,0 +1,21 @@
+.catalogContainer {
+  padding-top: 20px;
+}
+@media (min-height:1300px)
+{
+  .trolleyIconContainer {
+    bottom:96% !important;
+  }
+}
+.trolleyIconContainer {
+  position: fixed;
+  bottom: 94%;
+  left: 30%;
+  z-index: 1000;
+  cursor: pointer;
+  
+}
+.trolleyIcon {
+  color: #d3d3d3;
+  font-size: 40px !important;
+}

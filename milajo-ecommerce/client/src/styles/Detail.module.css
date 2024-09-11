@@ -1,0 +1,76 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 350px;
+    /* border: 1px solid #d3d3d3; */
+    /* border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    overflow: hidden;
+    background-color: #fff;
+    margin:10% 20% 1% 10%;
+    width: 80%;
+}
+
+.image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 1px solid #d3d3d3;
+}
+.loader
+{
+    margin:20% 0% 0% 20%;
+    font-size: 30px !important;
+}
+.imageBox
+{
+  padding:1% 30% 1% 30% !important;
+}
+.cardContent {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.itemTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.itemDesc {
+    font-size: 0.875rem;
+    color: #555;
+    margin-bottom: 16px;
+    /* Remove fixed height to allow content to grow */
+    height: auto;
+    /* Ensure text wraps into multiple lines */
+    white-space: normal;
+    /* Optional: Add padding for better readability */
+    padding: 0 10px;
+}
+
+.price {
+    font-size: 2rem !important;
+    font-weight: 600;
+    color: #2596be;
+    padding:10px 10px 20px 10px;
+}
+
+.addButton {
+    background-color: #2596be !important;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    &:hover {
+        background-color: #1f7a9b;
+    }
+}
+
+.snackbar {
+    bottom: 80px;
+}

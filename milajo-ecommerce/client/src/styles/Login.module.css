@@ -1,0 +1,12 @@
+.formContainer {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+.inputField {
+  margin-bottom: 1rem !important;
+}
+.btn {
+  margin-bottom: 1rem !important;
+}

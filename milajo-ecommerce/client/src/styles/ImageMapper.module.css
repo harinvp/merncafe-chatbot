@@ -1,0 +1,12 @@
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+  }
+  
+  .attribution {
+    font-size: 8px;
+    color: #666;
+    padding-left:5px;
+  }

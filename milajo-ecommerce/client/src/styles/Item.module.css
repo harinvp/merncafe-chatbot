@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  flex-direction: column;
+ 
+  width: 350px;
+  border:1px solid #d3d3d3;
+}
+
+.itemDesc
+{
+  font-size: 0.875rem;
+  color: #555;
+  margin-bottom: 16px;
+  height: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.linkItem
+{
+  text-decoration: none !important;
+  color:#2596be !important;
+  cursor: pointer;
+}
+.price {
+  padding: 5px 0px 10px 5px;
+  font-weight: 600 !important;
+}

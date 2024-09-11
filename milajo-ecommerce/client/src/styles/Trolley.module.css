@@ -1,0 +1,58 @@
+
+
+
+
+
+.trolleyContainer {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-top:30px;
+}
+
+.itemsContainer {
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.itemImage {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.itemDetails {
+  flex-grow: 1;
+  padding-left:20px;
+}
+
+.totalPrice {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color:green;
+  margin-bottom: 20px;
+}
+
+.emailInput {
+  margin-bottom: 20px  !important;
+  background-color: white;
+}
+
+.checkoutButton {
+    width: 20%;
+    background-color: rgb(223, 76, 213) !important;
+    margin-right:30px !important;
+    color:white !important
+}
+.deleteIcon
+{
+  color:#FF5733;
+  padding-top:20px;
+  cursor: pointer;
+}
