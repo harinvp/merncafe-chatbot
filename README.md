@@ -9,6 +9,6 @@ https://www.amazon.com.au/MERN-Caf%C3%A9-Learn-sipping-coffee-ebook/dp/B0CWS4BPZ
 The repo for the site project is below
 https://github.com/harinvp/merncafe
 
-Important: Get Started steps for RAG Integration will be updated here on or before 15th September 2024
+Important: Get Started steps for RAG Integration will be updated here on or before 22nd September 2024
 
 
